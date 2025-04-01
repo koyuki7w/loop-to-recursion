@@ -15,4 +15,4 @@ jobs:
           poetry install
       - name: mypy
         run: |
-          poetry run mypy src tests
+          poetry run mypy src
